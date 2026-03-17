@@ -1,0 +1,18 @@
+{
+  "appId": "app_001",
+  "title": "示例应用配置",
+  "child": [
+    {
+      "type": "widget",
+      "key": "button",
+      "isContext": true,
+      "order": 1,
+      "attr": {
+        "text": "提交成功",
+        "row": 2
+      }
+    }
+  ],
+  "weight": 500,
+  "height": 500
+}

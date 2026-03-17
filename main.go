@@ -1,6 +1,9 @@
 package main
 
-import "fucker/frame/comp"
+import (
+	"fucker/frame/comp"
+	"fucker/frame/config"
+)
 
 func main() {
 	//a := app.New()
@@ -15,6 +18,7 @@ func main() {
 	//))
 	//
 	//w.ShowAndRun()
-	p := "/Users/james/Desktop/config.json"
-	comp.StartFromConfigFile(p)
+
+	path := config.GetDefaultConfigPath()
+	comp.StartFromConfigFile(path)
 }
